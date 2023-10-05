@@ -4,16 +4,22 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <style>
         body {
-            background-color: #ECECEC;
+            background-color: #009479;
         }
 
         .header {
-            background-image: url('header-bg.jpg');
+            background-image: url(https://phonoteka.org/uploads/posts/2021-04/1618663385_13-phonoteka_org-p-zelenii-fon-dlya-prevyu-14.jpg);
             background-size: cover;
+            border-radius: 20px;
+            border: 2px solid black;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 10px 10px 10px;
+            display: flex;
         }
 
         a {
-            color: #0077FF;
+            color: #000000;
             text-decoration: none;
         }
 
@@ -25,23 +31,31 @@
             list-style-type: square;
         }
 
-        input[type="text"], button {
-            background-color: #F2F2F2;
-            border: 1px solid #CCCCCC;
+        section {
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: #00a35a;
+            padding: 15px;
+            box-shadow: 10px 10px 10px;
+        }
+
+        input, button {
+            background-color: #00eb81;
+            border: 1px solid #000000;
             padding: 5px;
         }
 
         table {
+            background-color: #00eb81;
             border-collapse: collapse;
             width: 100%;
         }
 
         th, td {
-            border: 1px solid #DDDDDD;
+            border: 1px solid #000000;
             padding: 8px;
             text-align: left;
         }
-
     </style>
 </head>
 
@@ -67,7 +81,7 @@
     </section>
 
     <section class="form">
-        <h2>Зв'яжіться з нами'</h2>
+        <h2>Зв'яжіться з нами</h2>
         <form>
             <label for="name">Ваше ім'я</label>
             <input type="text" id="name" name="name" required>
