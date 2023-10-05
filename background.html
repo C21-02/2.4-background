@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            background-color: #ECECEC;
+        }
+
+        .header {
+            background-image: url('header-bg.jpg');
+            background-size: cover;
+        }
+
+        a {
+            color: #0077FF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        input[type="text"], button {
+            background-color: #F2F2F2;
+            border: 1px solid #CCCCCC;
+            padding: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #DDDDDD;
+            padding: 8px;
+            text-align: left;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Моя сторінка</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Головна</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Новини</h2>
+        <ul>
+            <li><a href="#">Новина 1</a></li>
+            <li><a href="#">Новина 2</a></li>
+            <li><a href="#">Новина 3</a></li>
+        </ul>
+    </section>
+
+    <section class="form">
+        <h2>Зв'яжіться з нами'</h2>
+        <form>
+            <label for="name">Ваше ім'я</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Ваш Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Відправити</button>
+        </form>
+    </section>
+
+    <section class="table">
+        <h2>Таблиця з даними</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ім'я</th>
+                    <th>Вік</th>
+                    <th>Місто</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Іван</th>
+                    <th>25</th>
+                    <th>Київ</th>
+                </tr>
+                <tr>
+                    <th>Марія</th>
+                    <th>30</th>
+                    <th>Львів</th>
+                </tr>
+                <tr>
+                    <th>Петро</th>
+                    <th>22</th>
+                    <th>Одеса</th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
